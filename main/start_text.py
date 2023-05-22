@@ -5,7 +5,7 @@ from config import ADMIN
 
 @Client.on_message(filters.command("start") & filters.private)                             
 async def start_cmd(bot, msg):
-    text="**Please Join My Both Updates Channel to use this Bot!**"
+    txt="**Please Join My Both Updates Channel to use this Bot!**"
     btn = InlineKeyboardMarkup([[
         InlineKeyboardButton("🔥 Join Updates Channel 🔥", url="https://youtube.com/@InvisibleYTV")
         ],[
